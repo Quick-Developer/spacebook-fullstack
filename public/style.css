@@ -1,0 +1,15 @@
+.post {
+    padding: 20px 0;
+}
+
+.btn-sm {
+    margin: 5px 5px 5px 0;
+}
+
+.btn-danger {
+    margin: 5px 0 5px 10px;
+}
+
+.comments-container {
+    display: none;
+}
