@@ -28,7 +28,7 @@ class PostsRenderer {
           let newHTML = template(posts[postIndex].comments[i]);
           $commentsList.append(newHTML);
         }
-    }
+    }    
 }
 
 export default PostsRenderer

@@ -10,6 +10,10 @@ class PostsRepository {
         this.posts.push({ text: postText, comments: [] });
     }
 
+    addPostFromDB(postObj) {
+        this.posts.push(postObj);
+    }
+
     removePost(index) {
         this.posts.splice(index, 1);
     }
